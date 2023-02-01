@@ -20,7 +20,7 @@ public class Pessoa {
     private LocalDate nascimento;
     private String civil;
     private String sexo;
-    
+
     public Long getId() {
         return id;
     }

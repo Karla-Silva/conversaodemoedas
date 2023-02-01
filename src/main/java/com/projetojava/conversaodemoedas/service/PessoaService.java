@@ -10,10 +10,10 @@ import java.util.Optional;
 @RequiredArgsConstructor
 @Service
 public class PessoaService {
-    private final CrudRepository<Pessoa, Long> repository;
+    private final CrudRepository<Pessoa, String> repository;
 
-    public Optional<Pessoa> getById(Long id) {
-        return repository.findById(id);
+    public Optional<Pessoa> getByCpf(String cpf) {
+        return repository.findById(cpf);
     }
 
     public void adicionar(Pessoa entity) {

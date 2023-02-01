@@ -1,6 +1,6 @@
-package com.projetojava.conversaodemoedas.repository;
+package com.projetojava.conversaodemoedas.pessoa;
 
-import com.projetojava.conversaodemoedas.model.Pessoa;
+import com.projetojava.conversaodemoedas.pessoa.Pessoa;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

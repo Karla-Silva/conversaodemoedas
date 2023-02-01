@@ -1,8 +1,5 @@
-package com.projetojava.conversaodemoedas.controller;
+package com.projetojava.conversaodemoedas.pessoa;
 
-import com.projetojava.conversaodemoedas.dto.PessoaDTO;
-import com.projetojava.conversaodemoedas.model.Pessoa;
-import com.projetojava.conversaodemoedas.service.PessoaService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

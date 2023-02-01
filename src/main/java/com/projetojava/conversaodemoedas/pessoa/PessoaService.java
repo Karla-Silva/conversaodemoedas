@@ -1,6 +1,6 @@
-package com.projetojava.conversaodemoedas.service;
+package com.projetojava.conversaodemoedas.pessoa;
 
-import com.projetojava.conversaodemoedas.model.Pessoa;
+import com.projetojava.conversaodemoedas.pessoa.Pessoa;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,5 @@
-package com.projetojava.conversaodemoedas.dto;
+package com.projetojava.conversaodemoedas.pessoa;
 
-import com.projetojava.conversaodemoedas.model.Pessoa;
 import lombok.Data;
 
 import java.time.LocalDate;

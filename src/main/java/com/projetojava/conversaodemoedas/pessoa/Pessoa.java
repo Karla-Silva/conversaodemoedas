@@ -1,4 +1,4 @@
-package com.projetojava.conversaodemoedas.model;
+package com.projetojava.conversaodemoedas.pessoa;
 
 
 import lombok.Data;

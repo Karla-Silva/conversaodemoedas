@@ -1,10 +1,15 @@
 package com.projetojava.conversaodemoedas.ordemDeCompra;
 
+import lombok.Data;
+
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.math.BigDecimal;
 
+@Entity
+@Data
 public class ordemDeCompra {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -14,43 +19,4 @@ public class ordemDeCompra {
     private BigDecimal valor;
     private String agencia;
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getCpf() {
-        return cpf;
-    }
-
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
-    }
-
-    public String getMoeda() {
-        return moeda;
-    }
-
-    public void setMoeda(String moeda) {
-        this.moeda = moeda;
-    }
-
-    public BigDecimal getValor() {
-        return valor;
-    }
-
-    public void setValor(BigDecimal valor) {
-        this.valor = valor;
-    }
-
-    public String getAgencia() {
-        return agencia;
-    }
-
-    public void setAgencia(String agencia) {
-        this.agencia = agencia;
-    }
 }

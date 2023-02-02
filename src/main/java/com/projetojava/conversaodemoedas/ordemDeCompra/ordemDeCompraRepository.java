@@ -1,6 +1,8 @@
 package com.projetojava.conversaodemoedas.ordemDeCompra;
 
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-public interface ordemDeCompraRepository extends CrudRepository<ordemDeCompra, Long> {
+@Repository
+public interface ordemDeCompraRepository extends JpaRepository<ordemDeCompra, String> {
 }

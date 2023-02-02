@@ -1,9 +1,11 @@
 package com.projetojava.conversaodemoedas.dto;
 
 import com.projetojava.conversaodemoedas.model.Pessoa;
+import lombok.Data;
 
 import java.time.LocalDate;
 
+@Data
 public class PessoaDTO {
     private final String nome;
     private final String cpf;
@@ -24,6 +26,8 @@ public class PessoaDTO {
         entity.setCpf(cpf);
         entity.setNome(nome);
         entity.setNascimento(nascimento);
+        entity.setCivil(civil);
+        entity.setSexo(sexo);
         return entity;
     }
 }

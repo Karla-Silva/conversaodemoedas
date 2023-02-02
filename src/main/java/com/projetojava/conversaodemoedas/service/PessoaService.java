@@ -11,9 +11,14 @@ import java.util.Optional;
 @Service
 public class PessoaService {
     private final CrudRepository<Pessoa, Long> repository;
+    private final CrudRepository<Pessoa, String> repositoryPessoa;
 
     public Optional<Pessoa> getById(Long id) {
         return repository.findById(id);
+    }
+
+    public Optional<Pessoa> getByCpf(String cpf) {
+        return repositoryPessoa.findById(cpf);
     }
 
     public void adicionar(Pessoa entity) {

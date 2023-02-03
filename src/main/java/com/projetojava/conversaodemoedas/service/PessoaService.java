@@ -1,27 +1,20 @@
 package com.projetojava.conversaodemoedas.service;
 
 import com.projetojava.conversaodemoedas.model.Pessoa;
+import com.projetojava.conversaodemoedas.repository.PessoaRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Service;
-
-import java.util.Optional;
 
 @RequiredArgsConstructor
 @Service
 public class PessoaService {
-    private final CrudRepository<Pessoa, Long> repository;
-    private final CrudRepository<Pessoa, String> repositoryPessoa;
+    private final PessoaRepository pessoaRepository;
 
-    public Optional<Pessoa> getById(Long id) {
-        return repository.findById(id);
-    }
-
-    public Optional<Pessoa> getByCpf(String cpf) {
-        return repositoryPessoa.findById(cpf);
+    public Pessoa getByCpf(String cpf) {
+        return pessoaRepository.findByCpf(cpf);
     }
 
     public void adicionar(Pessoa entity) {
-        repository.save(entity);
+        pessoaRepository.save(entity);
     }
 }

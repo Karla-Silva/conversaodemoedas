@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
 import java.net.URI;
-import java.util.Optional;
 
 @RequiredArgsConstructor
 @RestController
@@ -24,10 +23,12 @@ public class PessoaController {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Não foi informada um cpf!");
         }
         String clearCpf = cpf.replaceAll("[\\.-]", "");
-        Optional<Pessoa> encontrado = service.getByCpf(cpf);
-        Pessoa entity = encontrado.orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND,
-                "Não foi localizada uma pessoa com o CPF informado"));
-        return ResponseEntity.ok(PessoaDTO.of(entity));
+        Pessoa encontrado = service.getByCpf(cpf);
+        if (encontrado == null) {
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND,
+                    "Não foi localizada uma pessoa com o CPF informado");
+        }
+        return ResponseEntity.ok(PessoaDTO.of(encontrado));
     }
 
     @PostMapping

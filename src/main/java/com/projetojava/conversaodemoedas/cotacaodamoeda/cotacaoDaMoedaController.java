@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/cotacao")
 @RequiredArgsConstructor
 public class cotacaoDaMoedaController {
-    private final cotacaoDeMoedasService cotacaoDeMoedasService;
+    private final CotacaoDeMoedasService cotacaoDeMoedasService;
 
     @GetMapping("/eur")
     public ResponseEntity<cotacaoDaMoeda[]> cotacaoEurAtual() {

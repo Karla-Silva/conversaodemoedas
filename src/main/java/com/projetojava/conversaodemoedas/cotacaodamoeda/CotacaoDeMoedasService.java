@@ -5,10 +5,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 @Service
-public class cotacaoDeMoedasService {
+public class CotacaoDeMoedasService {
     private RestTemplate restTemplate;
 
-    public cotacaoDeMoedasService(RestTemplateBuilder restTemplateBuilder) {
+    public CotacaoDeMoedasService(RestTemplateBuilder restTemplateBuilder) {
         this.restTemplate = restTemplateBuilder.build();
     }
 

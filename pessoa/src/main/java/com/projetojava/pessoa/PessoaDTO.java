@@ -1,8 +1,5 @@
-<<<<<<<< HEAD:pessoa/src/main/java/com/projetojava/pessoa/PessoaDTO.java
+
 package com.projetojava.pessoa;
-========
-package com.projetojava.conversaodemoedas.pessoa;
->>>>>>>> origin/develop:src/main/java/com/projetojava/conversaodemoedas/pessoa/PessoaDTO.java
 
 import lombok.Data;
 

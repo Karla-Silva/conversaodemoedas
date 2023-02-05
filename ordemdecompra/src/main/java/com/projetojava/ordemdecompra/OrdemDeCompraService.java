@@ -1,8 +1,8 @@
 package com.projetojava.ordemdecompra;
 
-import com.projetojava.conversaodemoedas.Pessoa.PessoaService;
-import com.projetojava.conversaodemoedas.cotacaodamoeda.CotacaoDeMoedasService;
-import com.projetojava.conversaodemoedas.cotacaodamoeda.cotacaoDaMoeda;
+import com.projetojava.cotacaodamoeda.CotacaoDaMoeda;
+import com.projetojava.cotacaodamoeda.CotacaoDeMoedasService;
+import com.projetojava.pessoa.PessoaService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Service;
@@ -12,21 +12,21 @@ import java.util.Random;
 
 @RequiredArgsConstructor
 @Service
-public class ordemDeCompraService {
-    private final CrudRepository<ordemDeCompra, String> repository;
+public class OrdemDeCompraService {
+    private final CrudRepository<OrdemDeCompra, String> repository;
     private final PessoaService pessoaService;
     private final CotacaoDeMoedasService cotacaoDeMoedasService;
 
-    public calculoCotacao salvarOrdemDeCompra(ordemDeCompra ordemDeCompra) {
+    public CalculoCotacao salvarOrdemDeCompra(OrdemDeCompra ordemDeCompra) {
         repository.save(ordemDeCompra);
-        calculoCotacao calculoCotacao = new calculoCotacao();
+        CalculoCotacao calculoCotacao = new CalculoCotacao();
         calculoCotacao.setId_compra(new Random().nextLong());
         calculoCotacao.setId_cliente(pessoaService.getByCpf(ordemDeCompra.getCpf()).getId());
         calculoCotacao.setCpf_cliente(ordemDeCompra.getCpf());
         calculoCotacao.setDataSolicitacao(Instant.now());
         calculoCotacao.setTipo_moeda(ordemDeCompra.getMoeda());
         calculoCotacao.setValor_moeda_estrangeira(ordemDeCompra.getValor());
-        cotacaoDaMoeda[] cotacao;
+        CotacaoDaMoeda[] cotacao;
         if (ordemDeCompra.getMoeda() == "USD") {
             cotacao = cotacaoDeMoedasService.getCotacaoUSD();
             calculoCotacao.setValor_cotacao(cotacao[0].getBid());

@@ -9,11 +9,11 @@ import org.springframework.web.server.ResponseStatusException;
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/ordemdecompra")
-public class ordemDeCompraController {
-    private final ordemDeCompraService service;
+public class OrdemDeCompraController {
+    private final OrdemDeCompraService service;
     @PostMapping
     @ResponseBody
-    public ResponseEntity<calculoCotacao> add(@RequestBody ordemDeCompraDTO ordem) {
+    public ResponseEntity<CalculoCotacao> add(@RequestBody OrdemDeCompraDTO ordem) {
         if(ordem.getAgencia() == null || ordem.getValor() == null || ordem.getCpf() == null || ordem.getMoeda() == null){
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Campos não preenchidos");
         }
@@ -24,7 +24,7 @@ public class ordemDeCompraController {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Agencia incorreta. A agencia deve conter apenas 4 digitos numericos.");
         }
         try{
-            calculoCotacao result = service.salvarOrdemDeCompra(ordem.toEntity());
+            CalculoCotacao result = service.salvarOrdemDeCompra(ordem.toEntity());
             return ResponseEntity.ok().body(result);
         } catch (Exception e) {
             throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Ocorreu um erro desconhecido");

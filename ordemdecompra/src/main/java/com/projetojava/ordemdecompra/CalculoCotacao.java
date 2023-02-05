@@ -3,7 +3,7 @@ package com.projetojava.ordemdecompra;
 import java.math.BigDecimal;
 import java.time.Instant;
 
-public class calculoCotacao {
+public class CalculoCotacao {
     private Long id_compra;
     private Long id_cliente;
     private String cpf_cliente;

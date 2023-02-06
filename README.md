@@ -14,11 +14,7 @@ Esta etapa do curso BackEnd Java do programa \<Dev>ª - B³/Let's Code (Ada) con
    * [Tabela de Conteudo](https://github.com/42sp/42labs-selection-process-v4-MayaraMCarvalho/blob/master/README.md#tabela-de-conte%C3%BAdos)
    * [Descrição do Projeto](https://github.com/42sp/42labs-selection-process-v4-MayaraMCarvalho/blob/master/README.md#-descri%C3%A7%C3%A3o-do-projeto)
    * [Background](https://github.com/42sp/42labs-selection-process-v4-MayaraMCarvalho/blob/master/README.md#-background)
-      * [Árvore de Huffman](https://github.com/42sp/42labs-selection-process-v4-MayaraMCarvalho/blob/master/README.md#%C3%A1rvore-de-huffman)
-      * [Memória Compartilhada](https://github.com/42sp/42labs-selection-process-v4-MayaraMCarvalho/blob/master/README.md#mem%C3%B3ria-compartilhada)
-      * [Compressão de Dados](https://github.com/42sp/42labs-selection-process-v4-MayaraMCarvalho/blob/master/README.md#compress%C3%A3o-de-dados)
    * [Desenvolvimento](https://github.com/42sp/42labs-selection-process-v4-MayaraMCarvalho/blob/master/README.md#desenvolvimento)
-   * [Como usar](https://github.com/42sp/42labs-selection-process-v4-MayaraMCarvalho/blob/master/README.md#como-usar)
    * [Tecnologias](https://github.com/42sp/42labs-selection-process-v4-MayaraMCarvalho/blob/master/README.md#-tecnologias)
    * [Ass](https://github.com/42sp/42labs-selection-process-v4-MayaraMCarvalho/blob/master/README.md#-tecnologias)
 <!--te-->

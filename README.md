@@ -8,7 +8,6 @@
 Esta etapa do curso BackEnd Java do programa \<Dev>ª - B³/Let's Code (Ada) consiste da partipação do Módulo 06 - ARQUITETURA DE SOFTWARE I e entrega do projeto API de Ordem de Compra. Este repositório contém o projeto final.
 
 ## 📋Tabela de conteúdos
-=================
 <!--ts-->
    * [Sobre](https://github.com/42sp/42labs-selection-process-v4-MayaraMCarvalho/blob/master/README.md#-sobre)
    * [Tabela de Conteudo](https://github.com/42sp/42labs-selection-process-v4-MayaraMCarvalho/blob/master/README.md#tabela-de-conte%C3%BAdos)

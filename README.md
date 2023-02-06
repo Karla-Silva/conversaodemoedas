@@ -79,6 +79,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 📝 Ass
 Feito com ❤️ por: <br>
- * Fernanda Savatin [Entre em contato!]([https://www.linkedin.com/in/karla-de-morais-silva-821296165/](https://www.linkedin.com/in/fernanda-savatin/))
+ * Fernanda Savatin [Entre em contato!](https://www.linkedin.com/in/fernanda-savatin/)
  * Karla Silva [Entre em contato!](https://www.linkedin.com/in/karla-de-morais-silva-821296165/)
  * Mayara Carvalho [Entre em contato!](https://www.linkedin.com/in/mayara-carvalho-a68988250/)

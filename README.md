@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="1200" height="200" src="https://user-images.githubusercontent.com/96498080/212560637-edb83454-332c-4e0e-8ad0-9ebeede93b5a.jpg">
+  <img width="1200" height="200" src="http://conteudo.imguol.com.br/c/noticias/f3/2022/07/13/euro-dolar-1657735597311_v2_1183x887.jpg">
 </p>
 
 # API de Ordem de Compra - \<Dev>ª - B³/Let's Code (Ada) - Final Project (Módulo 06 - Arquitetura de Software e Ágil I)

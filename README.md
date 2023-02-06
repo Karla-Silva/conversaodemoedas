@@ -59,12 +59,12 @@ O projeto será desenvolvido usando Git com o padrão GitFlow, com no mínimo um
 
 
 ## 👩‍🏫 Background
-  ### 🗃Banco de dados: H2
-  ### 📃Princípios do SOLID
-  ### 🤏Design Patterns: Microsserviços
-  ### 🏃‍♀️Sprint planning e review
+  * 🗃Banco de dados: H2
+  * 📃Princípios do SOLID
+  * 🤏Design Patterns: Microsserviços
+  * 🏃‍♀️Sprint planning e review
  
- ## 👩‍💻Desenvolvimento
+## 👩‍💻Desenvolvimento
    
  Subdividimos o projeto nas seguintes etapas:
   * Criar projeto base;
@@ -74,7 +74,7 @@ O projeto será desenvolvido usando Git com o padrão GitFlow, com no mínimo um
  
 ## 🛠 Tecnologias
 As seguintes ferramentas foram usadas na construção do projeto:
- * **[Java](https://www.java.com/pt-BR/)**
+* **[Java](https://www.java.com/pt-BR/)**
 * **[IntelliJ](https://www.jetbrains.com/pt-br/idea/download/#section=windows)**
 * **[Trello](https://trello.com/c/FaqRHerV/2-algoritmo-de-huffman)**
 

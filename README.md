@@ -2,7 +2,7 @@
   <img width="1200" height="200" src="https://user-images.githubusercontent.com/96498080/212560637-edb83454-332c-4e0e-8ad0-9ebeede93b5a.jpg">
 </p>
 
-# API de Ordem de Compra - <Dev>ª - B³/Let's Code (Ada) - Final Project (Módulo 06 - Arquitetura de Software e Ágil I)
+# API de Ordem de Compra - \<Dev>ª - B³/Let's Code (Ada) - Final Project (Módulo 06 - Arquitetura de Software e Ágil I)
  
 ## 💻 Sobre
 Esta etapa do curso BackEnd Java do programa <Dev>ª - B³/Let's Code (Ada) consiste da partipação do Módulo 06 - ARQUITETURA DE SOFTWARE I e entrega do projeto API de Ordem de Compra. Este repositório contém o projeto final.

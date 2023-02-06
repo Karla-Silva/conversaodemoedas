@@ -25,6 +25,7 @@ Esta etapa do curso BackEnd Java do programa \<Dev>ª - B³/Let's Code (Ada) con
   <img width="1200" height="200" src="https://ada-site-frontend.s3.sa-east-1.amazonaws.com/home/header-logo.svg">
 </p>
   Realizar a implementação de uma API que gera uma ordem de compra das moedas estrangeiras 💵USD (dólar) e 💶EUR (euro).
+  
   Para que o cliente realize a compra, primeiro ele deve se cadastrar no sistema informando o nome, cpf, data de nascimento, estado civil e sexo. Para tanto, um microsserviço de cadastro deve ser criado, gerando um id de cliente ao final de um processamento bem sucedido. Também deverá ser criado um endpoint de consulta do cliente pelo seu cpf.
 
 Após efetuar o cadastro, o cliente pode registrar a ordem de compra, que consiste em informar seu cpf, o tipo de moeda (USD ou EUR), o valor em moeda estrangeira e o número da agência (4 dígitos) que ocorrerá a retirada.

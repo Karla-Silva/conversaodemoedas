@@ -75,7 +75,7 @@ O projeto será desenvolvido usando Git com o padrão GitFlow, com no mínimo um
 As seguintes ferramentas foram usadas na construção do projeto:
 * **[Java](https://www.java.com/pt-BR/)**
 * **[IntelliJ](https://www.jetbrains.com/pt-br/idea/download/#section=windows)**
-* **[Trello](https://trello.com/c/FaqRHerV/2-algoritmo-de-huffman)**
+* **[Trello](https://trello.com/b/Xk50BrK2/projeto-java)**
 
 ## 📝 Ass
 Feito com ❤️ por: <br>
